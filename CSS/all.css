@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    cursor: url("../img/curseurs/GlowsNormal.cur"), default;
+    background-color: rgb(7, 7, 39);
+}
+div{
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+}

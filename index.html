@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="shortcut icon" href="img/logo1.jpg" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        
+    </style>
+    <?php
+        $nom = $_POST['nom'];
+        $email = $_POST['email'];
+    ?>    
+</head>
+<body>
+    <div style="height: 100vmin;">
+        <p>aa </p>
+        <div id="contenuFichier"></div>
+        <input type="text" id="newphrase" style="margin: 30px;" onkeyup="updateContent()">
+        <a style="color: aqua;" href="charles.html">vers charles</a>
+    </div>
+    <script>
+        function updateContent() {
+            var inputValue = document.getElementById('newphrase').value;
+            document.getElementById('contenuFichier').textContent = inputValue;
+        }
+    </script>
+</body>
+</html>
